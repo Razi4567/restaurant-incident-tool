@@ -4,7 +4,7 @@ A full-stack MERN application for reporting, managing, and tracking restaurant i
 
 ## Live Demo
 
-Frontend: https://YOUR-VERCEL-URL.vercel.app
+Frontend: https://vercel.com/razi4567s-projects/restaurant-incident-tool/79d2XbnbPk59imHpf4gAcsj18hFR
 
 Backend API: https://restaurant-api-hkvh.onrender.com
 
