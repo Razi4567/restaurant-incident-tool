@@ -1,10 +1,16 @@
-Restaurant Incident Reporting Tool
+# Restaurant Incident Reporting Tool
+
 A full-stack MERN application for reporting, managing, and tracking restaurant incidents in real time.
 
+## Live Demo
+
 Frontend: https://YOUR-VERCEL-URL.vercel.app
+
 Backend API: https://restaurant-api-hkvh.onrender.com
 
-Features
+---
+
+# Features
 
 * Incident reporting form
 * Incident dashboard
@@ -17,28 +23,35 @@ Features
 * REST API backend
 * Real-time UI updates
 
-Tech Stack
+---
 
-Frontend
+# Tech Stack
+
+## Frontend
+
 * React.js
 * React Router DOM
 * Axios
 * Tailwind CSS
 * Vite
 
-Backend
+## Backend
+
 * Node.js
 * Express.js
 * MongoDB Atlas
 * Mongoose
 
-Deployment
+## Deployment
+
 * Vercel (Frontend)
 * Render (Backend)
 
-Project Structure
+---
 
-bash
+# Project Structure
+
+```bash
 restaurant-incident-tool
 │
 ├── client
@@ -51,11 +64,13 @@ restaurant-incident-tool
 │   ├── models
 │   ├── routes
 │   └── server.js
+```
 
+---
 
-Installation & Setup
+#  Installation & Setup
 
-Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/Razi4567/restaurant-incident-tool.git
@@ -83,7 +98,7 @@ npm start
 
 ---
 
-Environment Variables
+#  Environment Variables
 
 Create a `.env` file inside the `server` folder.
 
@@ -93,30 +108,32 @@ MONGO_URI=your_mongodb_connection_string
 
 ---
 
-Screenshots
-Incident Reporting Page
+# 📸 Screenshots
+
+## Incident Reporting Page
+![Report Page](./images/report-page.png)
 
 ## Dashboard Page
 
-(Add Screenshot Here)
+![Dashboard Page](./images/dashboard-page.png)
 
 ---
 
-# 📡 API Endpoints
+API Endpoints
 
-## Create Incident
+Create Incident
 
 ```http
 POST /api/incidents
 ```
 
-## Get All Incidents
+Get All Incidents
 
 ```http
 GET /api/incidents
 ```
 
-## Update Incident Status
+Update Incident Status
 
 ```http
 PUT /api/incidents/:id
@@ -124,7 +141,7 @@ PUT /api/incidents/:id
 
 ---
 
-# 🎯 Future Improvements
+Future Improvements
 
 * Authentication system
 * Delete incidents
@@ -135,9 +152,8 @@ PUT /api/incidents/:id
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 Razi
 
 GitHub: https://github.com/Razi4567
-# restaurant-incident-tool
