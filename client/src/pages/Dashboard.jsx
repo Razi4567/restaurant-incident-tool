@@ -72,6 +72,14 @@ function Dashboard({ incidents, fetchIncidents }){
           Kitchen Equipment
         </option>
 
+        <option value="Customer Complaint">
+          Customer Complaint
+        </option>
+
+        <option value="Other">
+          Other
+        </option>
+
       </select>
 
       <br /><br />
