@@ -108,7 +108,7 @@ MONGO_URI=your_mongodb_connection_string
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ## Incident Reporting Page
 ![Report Page](./images/report-page.png)
