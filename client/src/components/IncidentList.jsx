@@ -7,7 +7,7 @@ function IncidentList({incidents,fetchIncidents}){
     try {
 
       await axios.put(
-        `http://localhost:5000/api/incidents/${id}`,
+        `https://restaurant-api-hkvh.onrender.com/api/incidents/${id}`,
         {
           status: newStatus,
         }

@@ -26,7 +26,7 @@ function IncidentForm({ fetchIncidents }) {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/incidents",
+        "https://restaurant-api-hkvh.onrender.com/api/incidents",
         formData
       );
 

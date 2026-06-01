@@ -15,7 +15,7 @@ function App() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/incidents"
+        "https://restaurant-api-hkvh.onrender.com/api/incidents"
       );
 
       setIncidents(response.data);
